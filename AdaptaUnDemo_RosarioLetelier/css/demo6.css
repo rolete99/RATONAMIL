@@ -1,0 +1,24 @@
+body {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    background-image: url(../img/arturo.gif);
+    --color-title: white;
+}
+
+.content__title {
+	-webkit-text-stroke: 2px var(--color-title);
+	text-stroke: 2px var(--color-title);
+	-webkit-text-fill-color: rgb(250, 224, 76);
+	text-fill-color: rgb(250, 224, 76);
+	color: rgb(250, 224, 76);
+    font-size: 8vw;
+    font-weight: 800; 
+    opacity: 75%;  
+}
+
+.content__subtitle {
+	font-size: 1.25rem;
+}
+
